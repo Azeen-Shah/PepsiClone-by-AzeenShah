@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+
+/* Header's Items */
+#logo img{
+    width: 60px;
+    cursor: pointer;
+}
+
+#product p{
+    font-family: 'Baloo 2', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#bar img{
+    height: 30px;
+    width: 35px;
+    cursor: pointer;
+}
+
+@media (max-width: 320px){
+    #product p{
+        display: none;
+    }
+}
+
+/* Video one */
+.videos{
+    width: 100%;
+    display: flex;
+}
+.videos video{
+    width: 100%;
+}
+
+
+/* bg */
+.bg{
+    margin: -7px;
+}
+
+.bg img{
+    width: 100vw;
+}
+
+#bg1{
+    position: relative;
+}
+
+#bg1 p{
+    position: absolute;
+    color: black;
+    text-align: center;
+    left: 45%;
+    bottom: 10%;
+    background-color: white;
+}
