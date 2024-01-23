@@ -21,6 +21,12 @@ header{
     z-index: 10;
 }
 
+#pichhay{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+}
+
 main{
     width: 100vw;
     box-sizing: border-box;
