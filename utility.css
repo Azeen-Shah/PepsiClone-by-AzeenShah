@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
-
 *{
     padding: 0;
     margin: 0;
 }
-
 
 /* Header's Items */
 #logo img{
@@ -13,9 +10,10 @@
 }
 
 #product p{
-    font-family: 'Baloo 2', sans-serif;
+    font-family: sans-serif;
     color: white;
     font-size: 1.5em;
+    font-weight: 900;
     cursor: pointer;
 }
 
@@ -64,7 +62,7 @@
     position: absolute;
     color: black;
     text-align: center;
-    bottom: 10%;
+    bottom: 5%;
     background-color: white;
     width: 35%;
     padding: 20px;
@@ -81,9 +79,10 @@
 
 
 /* bg 2 */
+/* p */
 #pera{
     position: absolute;
-    top: 2%;
+    top: 4%;
     text-align: center;
     color: white;
     width: 100vw;
@@ -161,4 +160,77 @@
     #pera p{
         line-height: 68px;
     }
+}
+
+/* CARDS */
+
+.container{
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card img{
+    width: 80vw;
+    border-radius: 20px;
+}
+
+.card img:hover{
+    box-shadow: -2px -5px 87px 23px blue;
+}
+
+.card p{
+    background-color: white;
+    width: 45%;
+    padding: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+}
+
+.card p:hover{
+    background-color: #0025ff;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 900px){
+    .card{
+        margin: 140px 0px;
+    }
+    .card p{
+        margin: 50px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 300px){
+    #bg1 p{
+        font-size: 1em;
+        padding: 5px;
+    }
+    .card p{
+        margin: 25px;
+        font-size: 1em;
+        padding: 5px;
+    }
+}
+
+#items{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
