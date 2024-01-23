@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 
 /* Header's Items */
 #logo img{
@@ -28,32 +33,132 @@
 
 /* Video one */
 .videos{
-    width: 100%;
+    width: 100vw;
     display: flex;
 }
 .videos video{
-    width: 100%;
+    width: 100vw;
 }
 
 
-/* bg */
+/* bg 1*/
 .bg{
-    margin: -7px;
+    margin-bottom: -7px;
 }
 
 .bg img{
     width: 100vw;
 }
 
-#bg1{
+.bg{
     position: relative;
+}
+
+#bg1{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
 #bg1 p{
     position: absolute;
     color: black;
     text-align: center;
-    left: 45%;
     bottom: 10%;
     background-color: white;
+    width: 35%;
+    padding: 20px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+#bg1 p:hover{
+    background-color: #0025ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* bg 2 */
+#pera{
+    position: absolute;
+    top: 2%;
+    text-align: center;
+    color: white;
+    width: 100vw;
+}
+
+#pera p{
+    display: flex;
+    justify-content: center;
+    font-size: 7vw;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+@media (min-width: 260px) and (max-width: 300px){
+    #pera p{
+        line-height: 18px;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 400px){
+    #pera p{
+        line-height: 23px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+    #pera p{
+        line-height: 27px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+    #pera p{
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 700px){
+    #pera p{
+        line-height: 37px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 800px){
+    #pera p{
+        line-height: 42px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 900px){
+    #pera p{
+        line-height: 47px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1000px){
+    #pera p{
+        line-height: 53px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1100px){
+    #pera p{
+        line-height: 58px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1200px){
+    #pera p{
+        line-height: 63px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1300px){
+    #pera p{
+        line-height: 68px;
+    }
 }
