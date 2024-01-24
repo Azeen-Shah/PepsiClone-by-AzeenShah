@@ -31,3 +31,9 @@ main{
     width: 100vw;
     box-sizing: border-box;
 }
+
+footer{
+    background-color: blue;
+    width: 100vw;
+    height: 100px;
+}
